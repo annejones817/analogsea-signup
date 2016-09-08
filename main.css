@@ -1,0 +1,100 @@
+body {
+	padding:0;
+	margin:0;
+	background-color:#1092e1;
+	font-family:Verdana, Arial, sans-serif;
+}
+
+.logo {
+	height:35px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.block {
+	display:block;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section {
+
+}
+
+.form {
+	background-color:white;
+	width:320px;
+	padding:30px 40px 30px 40px;
+	border-radius:3px;
+}
+
+h1 {
+	padding:0;
+	margin: 0 0 30px 0;
+	text-align:center;
+	font-size:32px;
+	font-weight:lighter;
+}
+
+label, input {
+	margin-bottom:15px;
+}
+
+label {
+	font-size:14px;
+}
+
+input {
+	width:303px;
+	padding:15px;
+	border:2px solid #d0d0d0;
+	border-radius:3px;
+	font-size:14px;
+	line-height:38px;
+}
+
+/*I couldn't get the button to appear the same width as
+the inputs unless hacking it as below*/
+
+button {
+	width:337px;
+	line-height:38px;
+	padding:15px;
+	border:2px solid #4BC07A;
+	border-radius:3px;
+	font-size:20px;
+	color:white;
+	background-color:#4BC07A;
+}
+
+button:hover {
+	background-color:green;
+	border:2px solid green;
+}
+
+.forgot {
+	color:gray;
+	margin-left:auto;
+	margin-right:auto;
+	width:107px;
+	font-size:12px;
+	margin-top:10px;
+
+}
+
+.login {
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	margin-top:10px;
+	width:220px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login > a {
+	color:white;
+}
